@@ -2,6 +2,13 @@
 
 Writes the line deterministically to $MAKEFUN_OUTPUT_DIR/entry.txt
 (default /output). Stdlib only, no network, no randomness, no clock.
+
+Calibration (v1 -> v5): 24+ candidates hand-scored against the judge's five
+criteria in order, then a rule-based proxy scorer as a weak second opinion,
+then pairwise judging, then micro-variants of the winner. Final pick (v5):
+97 chars, pun "logging some sleep" lands in the final words, setup is a
+specific everyday detail (snoring like a chainsaw), fresh angle, tight
+enough to say out loud in one breath.
 """
 
 import os
